@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-/* Adjusted header tag to match the HTML sematic tag, as well as replacing div tags with section tags to match the HTML semantic elements */
+/* Adjusted header tag to match the HTML sematic tag, as well as replacing div tags with nav tags to match the HTML semantic elements */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +24,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header section {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ header section {
     font-size: 20px;
 }
 
-header section ul {
+header nav ul {
     list-style-type: none;
 }
 
-header section ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
