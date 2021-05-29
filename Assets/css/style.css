@@ -85,6 +85,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* ask about the comma in between the classes. I seem to remember it not being necessary in header footer instances */
+
 /* consolidated the these three classes since they they all shared the same attributes */
 .benefit-lead, .benefit-brand, .benefit-cost{
     margin-bottom: 32px;
@@ -114,7 +116,7 @@ p {
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-/* consolidated the these three classes since they they all shared the same attributes */
+/*  */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
